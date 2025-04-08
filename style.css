@@ -4,7 +4,6 @@
     font-style: normal;
 }
 
-
 .outfit-ligth {
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
@@ -31,4 +30,29 @@
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+* {
+    /* propiedades de espaciado */
+    padding: unset;
+    margin: unset;
+    outline: unset;
+    border: unset;
+    /* la propiedad magica */
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+body {
+    color: #313131;
+    font-family: "Outfit", sans-serif, Young Serif;
+    background-color:hsl(30, 54%, 90%);
+    padding: 150px;
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color:  hsl(330, 100%, 98%);
+}
 }
